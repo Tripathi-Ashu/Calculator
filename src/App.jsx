@@ -48,7 +48,7 @@ function App() {
     } else {
       setPrevious(current);
     }
-
+    
     setOperator(op);
     setWaiting(true);
   }
