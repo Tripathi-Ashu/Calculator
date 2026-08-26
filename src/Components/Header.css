@@ -1,0 +1,106 @@
+.top-header{
+    height:70px;
+    background:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 25px;
+    border-bottom:1px solid #eee;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index:1000;
+  }
+  
+  .header-left,.header-right,.brand,.nav-links,.search-box{
+    display:flex;
+    align-items:center;
+  }
+  
+  .header-left{gap:15px}
+  
+  .menu-btn{
+    border:0;
+    background:none;
+    font-size:25px;
+    cursor:pointer;
+  }
+  
+  .brand{gap:10px}
+  
+  .brand-logo{
+    width:40px;
+    height:40px;
+    border-radius:10px;
+    background:#635bff;
+    color:#fff;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:bold;
+  }
+  
+  .brand h2{
+    margin:0;
+    font-size:20px;
+  }
+  
+  .brand span{
+    font-size:11px;
+    color:#999;
+  }
+  
+  .search-box{
+    width:280px;
+    gap:8px;
+    background:#f5f6fa;
+    padding:9px 14px;
+    border-radius:8px;
+  }
+  
+  .search-box input{
+    border:0;
+    outline:0;
+    background:none;
+    width:100%;
+  }
+  
+  .nav-links{gap:30px}
+  
+  .nav-links a{
+    text-decoration:none;
+    color:#777;
+    font-size:14px;
+  }
+  
+  .nav-links .active{
+    color:#635bff;
+  }
+  
+  .header-right{gap:15px}
+  
+  .icon-btn{
+    border:0;
+    background:none;
+    font-size:19px;
+    cursor:pointer;
+    position:relative;
+  }
+  
+  .notification span{
+    position:absolute;
+    top:-8px;
+    right:-10px;
+    background:#ff4d67;
+    color:#fff;
+    font-size:9px;
+    padding:2px 5px;
+    border-radius:10px;
+  }
+  
+  .profile img{
+    width:38px;
+    height:38px;
+    border-radius:50%;
+  }
